@@ -12,6 +12,7 @@ let score = 0; // number of correct answers
 let maxtime = 10
 let timeleft = -1; // amout of time left in seconds
 let hints = 2; // number of hints left
+let timer;
 let answerKey = ["","","",""];
 
 // most known flags https://www.sporcle.com/games/g/worldflags/results
@@ -131,7 +132,8 @@ function loadQuestion() {
   
   // randomize answers
   answerKey = ["","","",""];
-  for (i = 97; i < 101; i++) {
+  
+  for (let i = 97; i < 101; i++) {
     while(true) {   
       let rand = Math.floor(Math.random() * 4);
       if (answerKey[rand] == "") {
@@ -143,7 +145,7 @@ function loadQuestion() {
 
   // load the question and answers
   document.getElementById("question").innerHTML = questions[currentQuestion].question;
-  for (i = 0; i < 4; i++) {
+  for (let i = 0; i < 4; i++) {
     eval('document.getElementById("' + String.fromCharCode(97 + i) + '").innerHTML = "' + String.fromCharCode(65 + i) + '. " + questions[currentQuestion].' + answerKey[i] + ';');
   }
   
@@ -153,6 +155,7 @@ function loadQuestion() {
 function markIt(ans) {
 
   let message = "";
+  let heading = "";
   let colour = "";
   let newPoints = 0;
   
