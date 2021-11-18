@@ -1,3 +1,4 @@
+
 /*
 Features:
 Random Answer Order
@@ -11,6 +12,7 @@ let score = 0; // number of correct answers
 let maxtime = 10
 let timeleft = -1; // amout of time left in seconds
 let hints = 2; // number of hints left
+let answerKey = ["","","",""];
 
 // most known flags https://www.sporcle.com/games/g/worldflags/results
 // flag gallery https://en.wikipedia.org/wiki/Gallery_of_sovereign_state_flags
@@ -107,7 +109,10 @@ let questions = [
   }
 ];
 
-let answerKey = ["","","",""];
+// load the service worker in sw.js
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js');
+}
 
 function loadQuestion() {
 
