@@ -127,8 +127,6 @@ function loadQuestion() {
   // load the image
   let img = document.getElementById("image");
   img.src = questions[currentQuestion].image;
-  img.style.maxWidth = "60vw";
-  img.style.maxHeight = "50vh";
   
   // randomize answers
   answerKey = ["","","",""];
