@@ -63,6 +63,13 @@ h1 {
 	padding: 15px;
 }
 
+img {
+	width: auto;
+	height: auto;
+	max-width: 60vw;
+	max-height: 50vh;
+}
+
 .footer1, .footer2, .footer3, .footer4 {
 	background-color: #ccc;
 	padding: 10px;
@@ -110,8 +117,8 @@ h1 {
 }
 
 #b {
-	background-color: #EFC300;
-	box-shadow: 5px 5px #A09000;
+	background-color: #E6AC00;
+	box-shadow: 5px 5px #B67C00;
 }
 
 #c {
