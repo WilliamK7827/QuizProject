@@ -222,11 +222,11 @@ function showLightbox(heading, message, colour) {
 } // showLightbox
 
 function closeLightbox() {
-  if (currentQuestion < questions.length - 1) {
+  if (currentQuestion < questions.length - 1 && timeleft <= 0) {
     document.getElementById("lightbox").style.display = "none";
-    if (timeleft <= 0) {
-      loadQuestion();
-    }
+    loadQuestion();
+  } else if (timeleft > 0) {
+    document.getElementById("lightbox").style.display = "none";
   } else {
     showLightbox("Play again?", "<span onclick='reloadPage();'>Yes!</span>", "purple");
   }
