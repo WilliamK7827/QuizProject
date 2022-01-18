@@ -264,7 +264,3 @@ function showHint() {
 function reloadPage() {
   window.location.reload();
 }
-
-window.onbeforeunload = function(event) {
-  return 'Confirm Reload';
-};
