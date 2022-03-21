@@ -25,16 +25,16 @@ self.addEventListener('install', function(event) {
         '/quizimages/q1-8.jpg',
         '/quizimages/q1-9.jpg',
         '/quizimages/q1-10.jpg',
-        '/quizimages/q2-1.jpg',
-        '/quizimages/q2-2.jpg',
-        '/quizimages/q2-3.jpg',
-        '/quizimages/q2-4.jpg',
-        '/quizimages/q2-5.jpg',
-        '/quizimages/q2-6.jpg',
-        '/quizimages/q2-7.jpg',
-        '/quizimages/q2-8.jpg',
-        '/quizimages/q2-9.jpg',
-        '/quizimages/q2-10.jpg'
+        '/quizimages/q2-1.png',
+        '/quizimages/q2-2.png',
+        '/quizimages/q2-3.png',
+        '/quizimages/q2-4.png',
+        '/quizimages/q2-5.png',
+        '/quizimages/q2-6.png',
+        '/quizimages/q2-7.png',
+        '/quizimages/q2-8.png',
+        '/quizimages/q2-9.png',
+        '/quizimages/q2-10.png'
       ]);
     })
   );
