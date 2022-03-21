@@ -25,7 +25,7 @@ let questions = [
 	"c": "Austria",
 	"d": "Peru",
 	"image":"quizimages/q1-1.jpg",
-  "hint": "The leaf is a Maple, a tree used to make Syrup."
+	"hint": "The leaf is a Maple, a tree used to make Syrup."
   },
   {
 	"question": "What country's flag is this?",
@@ -34,7 +34,7 @@ let questions = [
 	"c": "Malaysia",
 	"d": "Liberia",
 	"image":"quizimages/q1-2.jpg",
-  "hint": "Each star represents one of the 50 major subdivisions."
+	"hint": "Each star represents one of the 50 major subdivisions."
   },
   {
 	"question": "What country's flag is this?",
@@ -43,7 +43,7 @@ let questions = [
 	"c": "Bangladesh",
 	"d": "Taiwan",
 	"image":"quizimages/q1-3.jpg",
-  "hint": "The Land of the Rising Sun."
+	"hint": "The Land of the Rising Sun."
   },
   {
 	"question": "What country's flag is this?",
@@ -52,7 +52,7 @@ let questions = [
 	"c": "England",
 	"d": "Australia",
 	"image":"quizimages/q1-4.jpg",
-  "hint": "Encompasses Great Britain and Northern Ireland."
+	"hint": "Encompasses Great Britain and Northern Ireland."
   },
   {
 	"question": "What country's flag is this?",
@@ -61,7 +61,7 @@ let questions = [
 	"c": "Japan",
 	"d": "Taiwan",
 	"image":"quizimages/q1-5.jpg",
-  "hint": "Democratic part of a Country split in two."
+	"hint": "Democratic part of a Country split in two."
   },
   {
 	"question": "What country's flag is this?",
@@ -70,7 +70,7 @@ let questions = [
 	"c": "Argentina",
 	"d": "Venezuela",
 	"image":"quizimages/q1-6.jpg",
-  "hint": "The Portuguese speaking part of South America."
+	"hint": "The Portuguese speaking part of South America."
   },
   {
 	"question": "What country's flag is this?",
@@ -79,7 +79,7 @@ let questions = [
 	"c": "Russia",
 	"d": "Italy",
 	"image":"quizimages/q1-7.jpg",
-  "hint": "Le Drapeau Tricolore."
+	"hint": "Le Drapeau Tricolore."
   },
   {
 	"question": "What country's flag is this?",
@@ -88,7 +88,7 @@ let questions = [
 	"c": "France",
 	"d": "Spain",
 	"image":"quizimages/q1-8.jpg",
-  "hint": "Die Bundesflagge."
+	"hint": "Die Bundesflagge."
   },
   {
 	"question": "What country's flag is this?",
@@ -97,7 +97,7 @@ let questions = [
 	"c": "Russia",
 	"d": "Vietnam",
 	"image":"quizimages/q1-9.jpg",
-  "hint": "The largest country in the world by population."
+	"hint": "The largest country in the world by population."
   },
   {
 	"question": "What country's flag is this?",
@@ -106,7 +106,97 @@ let questions = [
 	"c": "Greece",
 	"d": "Argentina",
 	"image":"quizimages/q1-10.jpg",
-  "hint": "The Star of David is a symbol of the state religion."
+	"hint": "The Star of David is a symbol of the state religion."
+  },
+  {
+	"question": "What country's flag is this?",
+	"a": "Switzerland",
+	"b": "Sweden",
+	"c": "Denmark",
+	"d": "Austria",
+	"image":"quizimages/q2-1.png",
+	"hint": "Often known for being neutral, despite the positive flag."
+  },
+  {
+	"question": "What country's flag is this?",
+	"a": "Australia",
+	"b": "New Zealand",
+	"c": "Fiji",
+	"d": "Tuvalu",
+	"image":"quizimages/q2-2.png",
+	"hint": "Home to the outback."
+  },
+  {
+	"question": "What country's flag is this?",
+	"a": "Italy",
+	"b": "Ireland",
+	"c": "Hungary",
+	"d": "Bulgaria",
+	"image":"quizimages/q2-3.png",
+	"hint": "Pizza; Pasta."
+  },
+  {
+	"question": "What country's flag is this?",
+	"a": "Sweden",
+	"b": "Denmark",
+	"c": "Finland",
+	"d": "Norway",
+	"image":"quizimages/q2-4.png",
+	"hint": "Land of IKEA and their famous meatballs"
+  },
+  {
+	"question": "What country's flag is this?",
+	"a": "Greece",
+	"b": "Uruguay",
+	"c": "Finland",
+	"d": "Iceland",
+	"image":"quizimages/q2-5.png",
+	"hint": "The cross symbolizes Eastern Orthodox Christiantity."
+  },
+  {
+	"question": "What country's flag is this?",
+	"a": "Finland",
+	"b": "Greece",
+	"c": "Uruguay",
+	"d": "Iceland",
+	"image":"quizimages/q2-6.png",
+	"hint": "Residents are known to be in saunas"
+  },
+  {
+	"question": "What country's flag is this?",
+	"a": "Spain",
+	"b": "Portugal",
+	"c": "Vietnam",
+	"d": "Germany",
+	"image":"quizimages/q2-7.png",
+	"hint": "Bullfighting; Paella."
+  },
+  {
+	"question": "What country's flag is this?",
+	"a": "Ireland",
+	"b": "Ivory Coast",
+	"c": "Italy",
+	"d": "India",
+	"image":"quizimages/q2-8.png",
+	"hint": "The Republic on the island of the same name."
+  },
+  {
+	"question": "What country's flag is this?",
+	"a": "Jamaica",
+	"b": "Guyana",
+	"c": "Dominica",
+	"d": "Mozambique",
+	"image":"quizimages/q2-9.png",
+	"hint": "Reggae emerged first from here."
+  },
+  {
+	"question": "What country's flag is this?",
+	"a": "Turkey",
+	"b": "Tunisia",
+	"c": "Morocco",
+	"d": "Montenegro",
+	"image":"quizimages/q2-10.png",
+	"hint": "One of few transcontinental countries."
   }
 ];
 
