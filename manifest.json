@@ -1,12 +1,12 @@
 {
-    "theme_color": "#246adf",
+    "theme_color": "#448aff",
     "background_color": "#448aff",
     "display": "standalone",
     "scope": "/",
     "start_url": "/index.html",
-    "name": "The Flag Quiz - version 2",
-    "short_name": "TFQ v2",
-    "description": "An easy flag identification quiz based off the 10 most recognizable flags.",
+    "name": "The Flag Quiz",
+    "short_name": "TFQ",
+    "description": "An easy flag identification quiz based off the 20 most recognizable flags.",
     "icons": [
         {
             "src": "icons/icon-192x192.png",
